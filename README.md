@@ -1,5 +1,5 @@
 # Guessing-Game
-A Guessing Game built in Python and Tkinter!  Except, there's a twist - the computer will guess your number! (the application version is only supported on macOS at the moment, the `.py` script is in here too so if you're on windows you can run it using that)
+A Guessing Game built in Python and Tkinter!  Except, there's a twist - the computer will guess the number you're thinking of! (the application version is only supported on macOS at the moment, the `.py` script is in here too so if you're on windows you can run it using that)
 
 ## How does it work?
 It uses the binary search algorithm to narrow down the results, which gives it a time complexity of O(log n).
