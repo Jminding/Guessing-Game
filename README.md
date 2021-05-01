@@ -15,3 +15,19 @@ Right click on the file, then click `Open`, and you will be asked that you're su
 Well it worked fine on my computer so you probably entered something wrong.
 Unless you're trying to make it break - then you succeeded, congratulations!
 Make sure you're entering only numbers in the lower bound and upper bound!
+
+
+## If someone on Windows can do this for me and make a pull request with the file, it would be very helpful (if it works)
+1. Navigate to Cmd.exe and do `pip install py2exe`
+2. Create a file called `setup.py` and paste this inside it:
+```python
+from distutils.core import setup
+import py2exe
+
+setup(windows=['Guessing Game.py'])
+```
+**Make sure that the `Guessing Game.py` is in the same directory ass the new setup.py file**
+3. Navigate back to Cmd.exe and run `python3 setup.py py2exe`
+4. If it succeeds and you successfully get a `Guessing Game.exe` file that opens, then please open a pull request and send it to me!
+
+I mean if not, you can always just download python and run it that way as well...
