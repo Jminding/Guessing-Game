@@ -1,5 +1,5 @@
 # Guessing-Game
-A Guessing Game built in Python and Tkinter!  Except, there's a twist - the computer will guess your number! (the application version is only supported on macOS at the moment, the .py script is in here too so if you're on windows you can run it using that)
+A Guessing Game built in Python and Tkinter!  Except, there's a twist - the computer will guess your number! (the application version is only supported on macOS at the moment, the `.py` script is in here too so if you're on windows you can run it using that)
 
 ## How does it work?
 It uses the binary search algorithm to narrow down the results, which gives it a time complexity of O(log n).
@@ -12,5 +12,6 @@ It uses the binary search algorithm to narrow down the results, which gives it a
 Right click on the file, then click `Open`, and you will be asked that you're sure you want to open this file.  Click "Ok" or "Yes" or "Open" and there you go!
 
 #### It gives me an error!
-Well it worked fine on my computer so you probably entered something wrong
+Well it worked fine on my computer so you probably entered something wrong.
+Unless you're trying to make it break - then you succeeded, congratulations!
 Make sure you're entering only numbers in the lower bound and upper bound!
